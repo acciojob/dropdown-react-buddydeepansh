@@ -286,12 +286,12 @@ function App() {
       </select>
       <div id="state-name">{states[stateSelected].name}</div>
       <div id="state-description">{states[stateSelected].description}</div>
-      {/* <div id="state-title" ></div> */}
+      <div id="state-title"></div>
       <div id="city-name">{states[stateSelected].city[citySelected].name}</div>
       <div id="city-description">
         {states[stateSelected].city[citySelected].description}
       </div>
-      {/* <div id="city-title" ></div> */}
+      <div id="city-title"></div>
 
       <div id="landmark-name">
         {
@@ -305,7 +305,7 @@ function App() {
             .description
         }
       </div>
-      {/* <div id="landmark-title" ></div> */}
+      <div id="landmark-title"></div>
     </div>
   );
 }
